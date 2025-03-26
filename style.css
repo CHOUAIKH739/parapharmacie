@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    font-family: "Winky Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.container{
+    width: 100%;
+    min-height: 640px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.container img{
+    position: relative;
+    object-fit: cover;
+    object-position: left;
+    
+}
+.home-text{
+    z-index: 1001;
+}
+.products{
+    width: 90rem;
+}
+
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 20%;
+    height: auto;
+}
+.whatsapp{
+    color: black;
+    font-size: 2rem;
+}
+.bx{
+    font-size: 2rem;
+}
+
+#cart {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+}
+.contact{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+@media(max-width:1024px){
+    .products{
+        display: none;
+    }
+    .im1{
+        width: 100%;
+        height: auto;
+    }
+    .im2{
+        width: 100%;
+        height: auto;
+    }
+    
+
+    
+    
+    
+    
+    
+}
